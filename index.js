@@ -1,9 +1,9 @@
-const fetchBreedDescription = require('./breedFetcher')
+const fetchBreedDescription = require('./breedFetcher');
 
 let breed = process.argv.slice(2);
 
 if (breed.length === 0) {
-  console.log('Please enter a breed.')
+  console.log('Please enter a breed.');
   return;
 }
 
